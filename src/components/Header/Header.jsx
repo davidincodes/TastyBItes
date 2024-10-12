@@ -4,7 +4,6 @@ import "./Header.scss";
 import useOnlineStatus from "../../hooks/useOnlineStatus";
 import Toggle from "../BtnToggleTheme/Toggle";
 import { useSelector } from "react-redux";
-import logo from "../../assets/logo.svg";
 import Cart from "../../assets/Cart.jsx";
 import { signOut } from "firebase/auth";
 import { auth } from "../../utils/firebase";
@@ -33,7 +32,7 @@ const Header = () => {
       <div className="header">
         <div className="logo-container">
           <NavLink to="/">
-            <img src={logo} alt="Logo" />
+            <h1 className="font-extrabold text-orange-500 ">Tasty Bite</h1>
           </NavLink>
         </div>
         <div className="nav-item">
