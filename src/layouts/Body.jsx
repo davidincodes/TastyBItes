@@ -111,16 +111,14 @@ const Body = () => {
       <div className="filter">
         <div className="search">
           <input
-            className="search-box"
+            className="search-box text-black"
             type="text"
             placeholder="Enter restaurant name"
             onChange={(e) => setSearchText(e.target.value)}
           />
-          {/* <button onClick={handleSearch}>Search</button> */}
+          
         </div>
-        {/* <button className="filter-btn" onClick={handleFilter}>
-          Filter Restaurant
-        </button> */}
+        
         <select
           className="filter-btn"
           value={selectedOption}

@@ -32,7 +32,7 @@ const Header = () => {
       <div className="header">
         <div className="logo-container">
           <NavLink to="/">
-            <h1 className="font-extrabold text-orange-500 ">Tasty Bite</h1>
+            <h1 className="font-extrabold text-orange-500 ">Tasty Bites</h1>
           </NavLink>
         </div>
         <div className="nav-item">

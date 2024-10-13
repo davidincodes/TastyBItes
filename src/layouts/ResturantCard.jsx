@@ -1,6 +1,4 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unsafe-optional-chaining */
-/* eslint-disable react/display-name */
+
 import { CDN_URL } from "../utils/contants";
 import star from "../assets/star.svg";
 import yellowstar from "../assets/yellowstar.svg";
@@ -35,7 +33,7 @@ const ResturantCard = ({ resData }) => {
   );
 };
 
-// Higher-Order Component (HOC) - A Higher-Order Component (HOC) is a function that takes a component and returns a new component with enhanced functionality.
+
 
 export const topRated = (ResturantCard) => {
   return (props) => {
